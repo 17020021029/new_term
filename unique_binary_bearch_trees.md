@@ -13,8 +13,7 @@ Given n = 3, there are a total of 5 unique BST's.
 ````
 ## 问题分析
 一开始看了很长时间没看出来该怎么做，后来看到有人的解法说这个是卡特兰数列的一个例子
-
-![卡特兰数](https://gss2.bdstatic.com/9fo3dSag_xI4khGkpoWK1HF6hhy/baike/s%3D256/sign=2300064332dbb6fd215be2233f25aba6/1f178a82b9014a9084d9f405a2773912b21beea7.jpg)
+[卡特兰数](https://baike.baidu.com/item/%E5%8D%A1%E7%89%B9%E5%85%B0%E6%95%B0/6125746?fr=aladdin&fromid=9133402&fromtitle=%E5%8D%A1%E5%A1%94%E5%85%B0%E6%95%B0)
 ## 代码实现
 ```C++
 class Solution {
