@@ -19,6 +19,8 @@ For example, [0,2,3,1] is also a valid gray code sequence according to the above
 For now, the judge is able to judge based on one instance of gray code sequence. Sorry about that.
 ## 问题分析
 开始我觉得很麻烦，要通过遍历每一位上的情况，再遍历计算其十进制的结果；但是后来看到discuss里边全是通过按位运算符完成的
+
+下面代码实际上也是从十进制数由小到大遍历，存储一直到n位后代表的十进制位的结果
 ## 代码实现
 ```C++
 class Solution {
