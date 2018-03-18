@@ -34,16 +34,13 @@ public:
     }
     static bool find(vector<vector<char>> &board, string word, int index, int x, int y, vector<vector<bool>>& visited)//辅助函数，自定义参数,看字符串是否可以找到
     {
-        if(index == word.size())    //单词大小和索引相等即匹配
-                                    //当单词为空的时候是满足的
-                                    //下一个要查找的索引和单词大小相等说明，
-                                    //word的0 - index的位置的字母已经匹配
+        if(index == word.size())    
             return true;
         if(x < 0 || y < 0 || x >= board.size() || y >= board[0].size()) //不能越界
             return false;
-        if(visited[x][y]) //如果之前访问过，那么直接返回false
+        if(visited[x][y]) 
             return false;
-        if(board[x][y] != word[index]) //不相等，这条路走不通，剪枝
+        if(board[x][y] != word[index]) 
             return false;
         visited[x][y] = true; //先标记为走过，因为下一次会走向四个方向
         bool ret = dfs(board, word, index + 1, x, y + 1, visited) ||
