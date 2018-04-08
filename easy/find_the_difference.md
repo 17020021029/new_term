@@ -18,7 +18,7 @@ e
 Explanation:
 'e' is the letter that was added.
 ## 解题思路
-因为t字符串是s任意改变顺序后加一个字符，很容易想到，但如果遍历操作的话，时间会很长，因为是找不同的字符，很容易联想到[single number](),那是我第一次用到位运算的解法，于是这道题耶采取了这种思路
+因为t字符串是s任意改变顺序后加一个字符，很容易想到，但如果遍历操作的话，时间会很长，因为是找不同的字符，很容易联想到[single number](https://github.com/17020021029/leetcode/blob/master/single_number.md),那是我第一次用到位运算的解法，于是这道题耶采取了这种思路
 ## 代码实现
 ```C++
 class Solution {
