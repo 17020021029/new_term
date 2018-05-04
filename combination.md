@@ -46,3 +46,6 @@ public:
 ```
 ## 总结
 [vector类用法](https://blog.csdn.net/hancunai0017/article/details/7032383)
+
+## 二刷
+学过STL后，按照这个思路写起来更得心应手了，但是用到递归，时间复杂度很大，所以还需要找更好的算法
