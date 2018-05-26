@@ -40,6 +40,7 @@ public:
         return ugly[n-1];
     }
 };
+```
 [正解](https://www.cnblogs.com/grandyang/p/4743837.html)
 ```C++
 class Solution {
